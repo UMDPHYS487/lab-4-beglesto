@@ -14,11 +14,15 @@ int main() {
                 case 4:
                 case 6:
                 case 8:
-                    cout << inp*inp << "\n";
+                    {
+                    int sq = inp*inp;
+                    cout << sq << "\n";
                     break;
+                    }
                 default:
                     cout << "hahaha\n";
             }
+            break;
         case 1:
             cout << float(inp)/2 << "\n";
             break; 
